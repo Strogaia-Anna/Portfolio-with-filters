@@ -71,9 +71,7 @@ export class Portfolio extends React.Component {
                 filters={this.filters}
                 state={this.state}
                 onSelectFilter={(filter) => {
-                    console.log(this.state.selected)
                     this.setState({selected: filter})
-                    console.log(this.state.selected)
                 }}/>
             <ProjectList
                 projectsList={this.projectsList}
